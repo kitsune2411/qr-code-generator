@@ -13,6 +13,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
     "qrcode.vue": "^3.4.0",
     "vue": "^3.3.2"
   },
