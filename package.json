@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "dev:host": "vite --host",
     "build": "run-p type-check build-only",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "build-only": "vite build",
